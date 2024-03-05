@@ -37,6 +37,6 @@ module fixed_priority_arbiter_test;
 
   initial begin
     $dumpfile("dump.vcd");
-    $dumpvars(1);
+    $dumpvars();
   end
 endmodule
