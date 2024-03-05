@@ -2,8 +2,7 @@ module fixed_priority_arbiter(
   input clk,
   input rst_n,
   input [3:0] REQ,
-  output reg[3:0] GNT
-);
+  output reg[3:0] GNT);
 
   always @(posedge clk or negedge rst_n)
     begin
